@@ -1,0 +1,256 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PlushCV - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (11/28/2021)
+%
+% Author:
+% Shubham Mazumder (http://mazumder.me)
+%
+% Hacked together from:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% Used for own purpose with personal touch by Kahin Akram Hassan. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Icons:
+%%Main: https://icons8.com/icons/carbon-copy
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% https://resumegenius.com/resume-samples/data-scientist-resume-example
+
+
+\documentclass[a4paper]{plushcv}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Kahin}{Akram}{Data Scientist | Ph.D. in Visualization}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     ROW ONE -- Summary
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{whitie}{rgb}{0.98, 0.98, 0.98}
+
+\fcolorbox{whitie}{whitie}{
+	\begin{minipage}[t]{\textwidth}
+		\section{Summary}
+		Data scientist with 5+ years of experience in creative research thinking and quantitative/qualitative data analysis. Achievements include Ph.D. in abstract information visualization from Link\"oping University, data scientist at Scania Group, and leading UX/UI related projects.\sectionsep
+	\end{minipage}
+}
+\vspace{1em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1.0em}
+\begin{minipage}[t]{0.69\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Experience}
+\runsubsection{Data Scientist}
+\descript{| Scania Group}
+\location{Jan 2022 – present | Stockholm | Remote}
+\vspace{\topsep}
+\begin{tightemize}
+\sectionsep
+
+	\item Performed data preprocessing and used unsupervised learning to analyze charging log data from Scania's new electrical vehicles. I also lead two other data scientists in helping with the analysis and delivery of an exploratory proof-of-concept dashboard.
+	
+	\item \textbf{Key achievements:} Delivered a tailor-made dashboard for better problem-specific data analysis, lead the project into completion, and presented the results (written and oral).
+	
+	\item \textbf{Used:} Python, Pandas, Numpy, Scikit-learn (unsupervised, PCA/t-SNE, Apriori/Eclat), Dash Plotly, and Data Storytelling.
+	
+\end{tightemize}
+\sectionsep
+\sectionsep
+\runsubsection{Kanban Product Owner}
+\descript{| TechForGood AS }
+\location{Jan 2022 – present | Norrk\"oping | Remote}
+\begin{tightemize}
+\sectionsep
+
+
+	\item Collaborated with stakeholders to articulate product vision and project implementation. Also, translated features into user stories within the team’s backlog while managing, ranking, and prioritizing the list to reflect stakeholder’s requirements.
+	
+	\item \textbf{Key achievements:} Lead the team to an early MVP of the company website.
+	
+	\item \textbf{Used:} Kanban, Figma, Trello
+	
+\end{tightemize}
+\sectionsep
+\sectionsep
+\runsubsection{Project Leader}
+\descript{| Norrk\"oping Science Park }
+\location{Apr 2021 – Sep 2021 | Norrk\"oping | On-site}
+\begin{tightemize}
+\sectionsep
+
+	\item Project leader for a team of six to prepare the application for a European Digital Innovation Hub initiative with a focus on aviation in the greater Norrk\"oping area.
+	
+	\item \textbf{Key achievements:} Lead the team, structured and organized the project.
+	
+	\item \textbf{Used:} Kanban Methodology, Trello, Teams, etc.
+	
+\end{tightemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Private cloud with NextCloud }
+\descript{| Raspberry Pi}
+\location{Ongoing}
+\begin{tightemize}
+\item To ensure my data is safe and private, I'm currently setting up my own cloud using Nextcloud running in a docker image on a Raspberry PI. 
+\end{tightemize}
+
+\runsubsection{Own VPN with Wireguard }
+\descript{| Raspberry Pi}
+\location{Ongoing}
+\begin{tightemize}
+\item To feel safe while surfing I also setup my own VPN using Wireguard. The project is currently running in a docker image on a Raspberry PI. 
+\end{tightemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2020	     & Finalist & Lorem Ipsum\\
+% 2018	     & $2^{nd}$ & Dolor Sit Amet\\
+% 2015	     & Finalist  & Cras posuere\\
+% \\
+% \end{tabular}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.28\textwidth} 
+
+\section{Contact}
+
+\begingroup
+\setbox0=\hbox{
+	\includegraphics[scale=0.1,trim={0 1cm 0cm 0cm}]{icons/main/linkedin.png}\hspace{0.1cm} \href{https://www.linkedin.com/in/kahinakram/}{linkedin.com/in/kahinakram}
+}
+\parbox{\wd0}{\box0}
+\endgroup
+
+%------
+\begingroup
+\setbox0=\hbox{
+	\includegraphics[scale=0.1,trim={0 1cm 0cm 0cm}]{icons/main/github.png}\hspace{0.1cm} \href{https://github.com/KahinAkramHassan}{github.com/KahinAkramHassan}
+}
+\parbox{\wd0}{\box0}
+\endgroup
+
+%------
+
+\begingroup
+\setbox0=\hbox{
+	\includegraphics[scale=0.1,trim={0 1cm 0cm 0cm}]{icons/main/mail.png}\hspace{0.1cm} \href{mailto:kahin.akram.hassan@gmail.com}{kahin.akram.hassan@gmail.com}
+}
+\parbox{\wd0}{\box0}
+\endgroup
+
+%------
+
+\begingroup
+\setbox0=\hbox{
+	\includegraphics[scale=0.1,trim={0 1cm 0cm 0cm}]{icons/main/phone.png}\hspace{0.1cm}
+	\href{tel:+46704941359}{+46 (0)70 494 13 59}
+}
+\parbox{\wd0}{\box0}\endgroup
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\sectionsep
+\location{Main:}
+Python \\
+\sectionsep
+\location{Secondary:}
+SQL \textbullet{} JavaScript \\
+\sectionsep
+\sectionsep
+\subsection{Libraries/Frameworks}
+\sectionsep
+Flask \textbullet{} Scikit-Learn \textbullet{} Dash Plotly \textbullet{} D3.js/Chart.js \\
+\sectionsep
+\sectionsep
+\subsection{Tools/Platforms}
+\sectionsep
+Git \textbullet{} Docker \textbullet{} Raspberry Pi \textbullet{} OS(\underline{macOS}, \underline{Linux}, Windows) \\
+
+\sectionsep
+\subsection{Creative}
+\sectionsep
+Figma \textbullet{} \LaTeX \textbullet{} Workshop planning  \textbullet{} Agile Dev. \\
+\sectionsep
+
+\subsection{Languages}
+\sectionsep
+Native: Kurdish \textbullet{} \\ Proficiency: English, Swedish \textbullet{} Hobbyist: Spanish, Arabic \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{Link\"oping University}
+\descript{Ph.D. in Information Visualization}
+\location{Jun 2016 - Mar 2021 | Sweden}
+
+\sectionsep
+\subsection{Link\"oping University}
+\descript{B.Sc. \& M.Sc. in Media Technology and Engineering}
+\location{Aug 2010 - Jun 2015 | Sweden}
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     REFERENCES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{References}
+%Provided upon request.  
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
